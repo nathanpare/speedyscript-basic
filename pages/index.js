@@ -2,9 +2,16 @@ import Head from 'next/head';
 import Header from '@/components/Header';
 
 import { useRouter } from 'next/router';
+import { Typewriter, Cursor } from 'react-simple-typewriter';
+import { motion } from "framer-motion";
 
 export default function Home() {
   const router = useRouter();
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`)
+  }
+
 
   return (
     <div>
@@ -19,15 +26,74 @@ export default function Home() {
 
       <main>
         <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-16'>
-          <p className='text-2xl font-semibold md:text-3xl lg:text-4xl'>
-            BlackBoard Development Studios</p>
-          <div className='text-xl md:text-2xl lg:text-3xl py-10'>
-            <p>Exceeding Expectations</p>
-            <p>Without Exceeding your Budget.</p>
+          <div className='text-xl sm:text-3xl font-semibold md:text-4xl lg:text-5xl'>
+          <Typewriter
+            words={['Blackboard Development Studios', 'Your new Web Designers!', 'Your new SEO Specialists!', 'Your new Marketing Team!']}
+            loop={4}
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            onLoopDone={handleDone}
+          />
+          <Cursor cursorColor='#F7AB0A' />
           </div>
 
-          <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] py-3 px-10 rounded-md
+          <div className='text-lg sm:text-xl md:text-2xl lg:text-3xl py-8'>
+            <motion.div
+              initial={{
+                x: -500,
+                opacity: 0,
+                scale: 0.5
+              }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                scale: 1
+              }}
+              transition={{
+                delay: 3.5,
+                duration: 1
+              }}>
+              <p>Exceeding Expectations</p>
+            </motion.div>
+
+            <motion.div
+              initial={{
+                x: 500,
+                opacity: 0,
+                scale: 0.5
+              }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                scale: 1
+              }}
+              transition={{
+                delay: 4.5,
+                duration: 1,
+              }}>
+              <p>Without Exceeding your Budget.</p>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{
+              x: 0,
+              opacity: 0,
+              scale: 0.25
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              scale: 1
+            }}
+            transition={{
+              delay: 5.5,
+              duration: 1,
+            }}>
+            <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
+          </motion.div>
         </div>
 
 
