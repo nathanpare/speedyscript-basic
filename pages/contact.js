@@ -16,6 +16,7 @@ const Contact = () => {
     const numStr = "000000" + (Math.random() * 1000000 | 0);
     setContactNumber(numStr.substring(numStr.length - 6));
   }
+  
   const onSubmit = formData => {
     const form = document.querySelector('#contact-form');
     generateContactNumber();
