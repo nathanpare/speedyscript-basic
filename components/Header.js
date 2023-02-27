@@ -5,7 +5,7 @@ const Header = () => {
   const router = useRouter();
 
   return (
-    <div className='h-24 flex justify-between
+    <div className=' sticky top-0 h-24 flex justify-between
      items-center px-5'>
       <p onClick={() => router.push("/")}
         className='text-lg md:text-xl lg:text-2xl cursor-pointer
