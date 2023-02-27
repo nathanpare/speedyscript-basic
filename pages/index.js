@@ -41,9 +41,9 @@ export default function Home() {
           <div className='text-lg sm:text-xl md:text-2xl lg:text-3xl py-8'>
             <motion.div
               initial={{
-                x: -500,
+                x: 0,
                 opacity: 0,
-                scale: 0.5
+                scale: 0.25
               }}
               animate={{
                 x: 0,
@@ -59,9 +59,9 @@ export default function Home() {
 
             <motion.div
               initial={{
-                x: 500,
+                x: 0,
                 opacity: 0,
-                scale: 0.5
+                scale: 0.25
               }}
               animate={{
                 x: 0,
@@ -69,7 +69,7 @@ export default function Home() {
                 scale: 1
               }}
               transition={{
-                delay: 4.5,
+                delay: 3.5,
                 duration: 1,
               }}>
               <p>Without Exceeding your Budget.</p>
@@ -88,7 +88,7 @@ export default function Home() {
               scale: 1
             }}
             transition={{
-              delay: 5.5,
+              delay: 3.5,
               duration: 1,
             }}>
             <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] py-2 px-8 sm:py-3 sm:px-10 rounded-md
