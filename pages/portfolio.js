@@ -5,7 +5,8 @@ const Portfolio = () => {
   return (
     <div>
       <Header />
-      <h1>Portfolio</h1>
+      <h1 className='text-[rgb(251,247,245)] text-2xl decoration-[#F7AB0A]
+       underline font-semibold text-center'>Portfolio</h1>
     </div>
   );
 }

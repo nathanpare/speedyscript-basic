@@ -12,7 +12,6 @@ export default function Home() {
     console.log(`Done after 5 loops!`)
   }
 
-
   return (
     <div>
       <Head>
@@ -27,15 +26,15 @@ export default function Home() {
       <main>
         <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-16'>
           <div className='text-xl sm:text-3xl font-semibold md:text-4xl lg:text-5xl'>
-          <Typewriter
-            words={['Blackboard Development Studios', 'Your new Web Designers!', 'Your new SEO Specialists!', 'Your new Marketing Team!']}
-            loop={4}
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-            onLoopDone={handleDone}
-          />
-          <Cursor cursorColor='#F7AB0A' />
+            <Typewriter
+              words={['Blackboard Development Studios', 'Your new Web Designers!', 'Your new SEO Specialists!', 'Your new Marketing Team!']}
+              loop={4}
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              onLoopDone={handleDone}
+            />
+            <Cursor cursorColor='#F7AB0A' />
           </div>
 
           <div className='text-lg sm:text-xl md:text-2xl lg:text-3xl py-8'>
@@ -91,12 +90,11 @@ export default function Home() {
               delay: 3.5,
               duration: 1,
             }}>
-            <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] py-2 px-8 sm:py-3 sm:px-10 rounded-md
+            <button onClick={() => router.push("/contact")}
+              className='bg-[#F7AB0A] py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
           </motion.div>
         </div>
-
-
       </main>
     </div>
   );

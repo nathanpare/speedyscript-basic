@@ -33,7 +33,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Website Design</h4>
+            <h4>Website Development</h4>
           </motion.div>
 
           <motion.div
@@ -62,7 +62,7 @@ const Services = () => {
           Website Development services to make your business stand out
           amongst the competition</p>
 
-          <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
       </section>
 
@@ -108,14 +108,14 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-2617116.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-2616999.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
         <p id='bottom-2' className='text-2xl text-center'>We offer state of the art
-         SEO services to help your business rise to the top of the search results</p>
+          SEO services to help your business rise to the top of the search results</p>
 
-         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
       </section>
 
@@ -161,14 +161,14 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-2512508.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-6283786.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
         <p id='bottom-3' className='text-2xl text-center'>We offer Google Ads
-         Services so you get seen FIRST!</p>
-        
-         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+          Services so you get seen FIRST!</p>
+
+        <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
       </section>
 
@@ -214,13 +214,13 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-2512508.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-2617116.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
         <p id='bottom-4' className='text-2xl text-center'>We offer Data Analysis services so you can find out what's improving and what's diminishing</p>
-        
-         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+
+        <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
       </section>
     </div>

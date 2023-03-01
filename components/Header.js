@@ -17,7 +17,7 @@ const Header = () => {
         <p onClick={() => router.push("/portfolio")}
           className='text-sm md:text-md lg:text-lg cursor-pointer
          hover:underline pl-4 text-[rgb(251,247,245)]'>Portfolio</p>
-        <p onClick={() => router.push("/mission")}
+        <p onClick={() => router.push("/about")}
           className='text-sm md:text-md lg:text-lg cursor-pointer
          hover:underline pl-4 text-[rgb(251,247,245)]'>About Us</p>
       </div>
