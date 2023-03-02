@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import Dropdown from './Dropdown';
 
 const Header = () => {
   const router = useRouter();
@@ -21,6 +22,7 @@ const Header = () => {
           className='text-md md:text-md lg:text-lg cursor-pointer
          hover:underline pl-4 text-[rgb(251,247,245)]'>About Us</p>
       </div>
+      <Dropdown />
     </div>
   );
 }
