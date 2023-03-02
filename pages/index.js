@@ -24,8 +24,8 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-16'>
-          <div className='text-xl sm:text-3xl font-semibold md:text-4xl lg:text-5xl'>
+        <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-24'>
+          <div className='text-2xl sm:text-4xl font-semibold md:text-5xl lg:text-6xl'>
             <Typewriter
               words={['Blackboard Development Studios', 'Your new Web Designers!', 'Your new SEO Specialists!', 'Your new Marketing Team!']}
               loop={4}
@@ -37,7 +37,7 @@ export default function Home() {
             <Cursor cursorColor='#F7AB0A' />
           </div>
 
-          <div className='text-lg sm:text-xl md:text-2xl lg:text-3xl py-8'>
+          <div className='text-xl sm:text-2xl md:text-3xl lg:text-4xl py-8'>
             <motion.div
               initial={{
                 x: 0,
