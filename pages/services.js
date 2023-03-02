@@ -58,7 +58,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <p id='bottom' className='text-2xl text-center'>We offer expert level
+        <p id='bottom' className='text-2xl text-center px-5'>We offer expert level
           Website Development services to make your business stand out
           amongst the competition</p>
 
@@ -112,7 +112,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <p id='bottom-2' className='text-2xl text-center'>We offer state of the art
+        <p id='bottom-2' className='text-2xl text-center px-5'>We offer state of the art
           SEO services to help your business rise to the top of the search results</p>
 
         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
@@ -165,7 +165,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <p id='bottom-3' className='text-2xl text-center'>We offer Google Ads
+        <p id='bottom-3' className='text-2xl text-center px-5'>We offer Google Ads
           Services so you get seen FIRST!</p>
 
         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
@@ -218,7 +218,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <p id='bottom-4' className='text-2xl text-center'>We offer Data Analysis services so you can find out what's improving and what's diminishing</p>
+        <p id='bottom-4' className='text-2xl text-center overflow-y-auto px-5'>We offer Data Analysis services so you can find out what you should be spending your valuable time on!</p>
 
         <button onClick={() => router.push("/contact")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>Contact Us</button>
