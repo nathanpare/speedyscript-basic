@@ -42,7 +42,7 @@ const Contact = () => {
       </Head>
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline'>Send us an Email!</p>
+       decoration-[#F7AB0A] underline pt-8'>Send us an Email!</p>
 
       <form
         id='contact-form' onSubmit={handleSubmit(onSubmit)}
