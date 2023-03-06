@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleDone = () => {
-    console.log(`Done after 5 loops!`)
+    console.log(`Done after 5 loops!`);
   }
 
   return (
