@@ -18,24 +18,24 @@ const Development = () => {
        py-5 px-12 md:px-24'>We at Blacksand Web Design are a software development company set on taking over the freelance app development space and we can turn your app dream into a reality using React Native. We specialize in creating high-quality mobile apps for both iOS and Android platforms, and we use React Native as our preferred framework for mobile app development. Here's why you should choose Blacksand Web Design for your next app development project:
 
         <p className='py-5'>1. Customized Solutions:
-At Blacksand Web Design, we understand that each client has unique requirements and goals for their mobile app. That's why we offer customized solutions that are tailored to meet your specific needs. Our team will work closely with you to understand your requirements, and we'll use React Native to create an app that meets your expectations.</p>
+          At Blacksand Web Design, we understand that each client has unique requirements and goals for their mobile app. That's why we offer customized solutions that are tailored to meet your specific needs. Our team will work closely with you to understand your requirements, and we'll use React Native to create an app that meets your expectations.</p>
 
         <p className='py-5'>2. Cross-Platform Development:
-React Native allows us to create mobile apps for both iOS and Android platforms using a single codebase. This means that we can save you time and resources by not having to write separate code for each platform. Additionally, since React Native uses a common language (JavaScript), it's easier for us to switch between platforms without having to learn new languages.</p>
+          React Native allows us to create mobile apps for both iOS and Android platforms using a single codebase. This means that we can save you time and resources by not having to write separate code for each platform. Additionally, since React Native uses a common language (JavaScript), it's easier for us to switch between platforms without having to learn new languages.</p>
 
         <p className='py-5'>3. High-Quality Performance:
-Our team at Blacksand Web Design is committed to creating mobile apps that are high-performing and efficient. Unlike other hybrid frameworks that use web views, React Native uses native components, which makes the app faster and more efficient. This is because the native components are optimized for each platform and can take advantage of the hardware capabilities of the device.</p>
+          Our team at Blacksand Web Design is committed to creating mobile apps that are high-performing and efficient. Unlike other hybrid frameworks that use web views, React Native uses native components, which makes the app faster and more efficient. This is because the native components are optimized for each platform and can take advantage of the hardware capabilities of the device.</p>
 
         <p className='py-5'>4. Dedicated Support:
-At Blacksand Web Design, we have a dedicated team commited to providing you with the best possible support. We work hard to make sure you're happy with our process</p>
+          At Blacksand Web Design, we have a dedicated team commited to providing you with the best possible support. We work hard to make sure you're happy with our process</p>
 
         <p className='py-5'>5. Easy to Use:
-React Native is based on React, which is a popular web development framework. This means that our developers are already familiar with React, making it easier for us to create mobile apps using React Native. Additionally, React Native has a simple and intuitive syntax that makes it easier for us to write and read code, reducing the likelihood of errors and improving the overall quality of your app.</p>
+          React Native is based on React, which is a popular web development framework. This means that our developers are already familiar with React, making it easier for us to create mobile apps using React Native. Additionally, React Native has a simple and intuitive syntax that makes it easier for us to write and read code, reducing the likelihood of errors and improving the overall quality of your app.</p>
 
-Blacksand Web Design is the perfect choice for turning your app dream into a reality using React Native. With our customized solutions, cross-platform development capabilities, high-quality performance, dedicated support, and ease of use, we'll create an app that meets your expectations and exceeds your goals. Contact us today to get started on your next app development project.
+        Blacksand Web Design is the perfect choice for turning your app dream into a reality using React Native. With our customized solutions, cross-platform development capabilities, high-quality performance, dedicated support, and ease of use, we'll create an app that meets your expectations and exceeds your goals. Contact us today to get started on your next app development project.
       </p>
     </div>
-  )
+  );
 }
 
 export default Development;

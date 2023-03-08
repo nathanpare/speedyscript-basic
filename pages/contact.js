@@ -24,10 +24,10 @@ const Contact = () => {
     sendForm('contact_form', 'template_1g6tpbt', '#contact-form')
       .then(function (response) {
         form.reset();
-        setStatusMessage("Success!")
+        setStatusMessage("Success!");
         console.log('SUCCESS!', response.status, response.text);
       }, function (error) {
-        setStatusMessage("Failed to Send")
+        setStatusMessage("Failed to Send");
         console.log('FAILED...', error);
       });
   }
