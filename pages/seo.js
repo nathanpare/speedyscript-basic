@@ -13,7 +13,7 @@ const Seo = () => {
       </Head>
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline'>SEO</p>
+       decoration-[#F7AB0A] underline pt-5'>SEO</p>
       <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
        py-5 px-12 md:px-24'>As a web development company, Blacksand Web Design understands the importance of a strong online presence for businesses. We know that having a beautiful and functional website is just the beginning, and that SEO is a crucial component of any successful online marketing strategy. Here are some of the reasons why SEO is necessary for growing your business with the help of Blacksand Web Design:
 

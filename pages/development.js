@@ -12,7 +12,7 @@ const Development = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
+      <p className='text-[rgb(251,247,245)] pt-5 text-2xl font-semibold text-center
        decoration-[#F7AB0A] underline'>Mobile App Development</p>
       <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
        py-5 px-12 md:px-24'>We at Blacksand Web Design are a software development company set on taking over the freelance app development space and we can turn your app dream into a reality using React Native. We specialize in creating high-quality mobile apps for both iOS and Android platforms, and we use React Native as our preferred framework for mobile app development. Here's why you should choose Blacksand Web Design for your next app development project:

@@ -13,7 +13,7 @@ const Marketing = () => {
       </Head>
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-     decoration-[#F7AB0A] underline'>Internet Marketing</p>
+     decoration-[#F7AB0A] underline pt-5'>Internet Marketing</p>
       <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
      py-5 px-12 md:px-24'>In today's digital age, having a strong online presence is essential for any business looking to grow and succeed. That's where internet marketing comes in. At Blacksand Web Design, we understand the importance of internet marketing for business growth and success. Here are some of the reasons why internet marketing is necessary for growing your business:
 

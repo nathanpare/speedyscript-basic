@@ -13,7 +13,7 @@ const Design = () => {
       </Head>
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline'>Website Design</p>
+       decoration-[#F7AB0A] underline pt-5'>Website Design</p>
       <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
        py-5 px-12 md:px-24'>At Blacksand Web Design, we specialize in creating custom websites that help businesses stand out from the competition. We use high-level software development frameworks to provide our clients with unique and innovative website solutions that are tailored to their specific needs.
 
