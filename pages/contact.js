@@ -41,12 +41,12 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline pt-8'>Send us an Email!</p>
+      <p className='text-[rgb(251,247,245)] text-2xl md:text-3xl lg:text-4xl font-semibold text-center
+       decoration-[#F7AB0A] underline pt-12'>Send us an Email!</p>
 
       <form
         id='contact-form' onSubmit={handleSubmit(onSubmit)}
-        className='flex flex-col space-y-2 w-96 mx-auto p-10 sm:w-96'>
+        className='flex flex-col space-y-2 mx-auto p-10 sm:w-10/12'>
         <input
           type='hidden'
           name='contact_number'
