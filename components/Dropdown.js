@@ -5,7 +5,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { useRouter } from 'next/router';
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function Example() {
