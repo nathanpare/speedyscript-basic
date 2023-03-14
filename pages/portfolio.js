@@ -15,7 +15,7 @@ const Portfolio = () => {
       </Head>
       <Header />
       <div id="empty-portfolio" className='justify-center text-4xl flex flex-row
-       items-center py-24 mx-auto'>
+       items-center py-24 mx-auto mt-12'>
          <Image className='p-5' src="/pngaaa.com-7101583.png" alt=''
           height={150} width={150} />
           <div className='flex-col'>

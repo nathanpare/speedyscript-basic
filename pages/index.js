@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-32'>
+        <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-36'>
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl lg:text-6xl'>
             <Typewriter
               words={['Blacksand Web Design', 'Your new Web Artists!', 'Your new SEO Specialists!', 'Your new Marketing Team!']}
