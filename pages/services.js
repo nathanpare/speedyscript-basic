@@ -20,7 +20,7 @@ const Services = () => {
       <Header />
 
       <section id='service-1' className='snap-start h-screen flex flex-col
-       items-center pt-14'>
+       items-center pt-20'>
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center mx-auto py-24'>
           <motion.div
             className='px-5 mx-auto'
