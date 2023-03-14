@@ -20,7 +20,7 @@ const Services = () => {
       <Header />
 
       <section id='service-1' className='snap-start h-screen flex flex-col
-       items-center pt-20'>
+       items-center pt-28'>
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center mx-auto py-24'>
           <motion.div
             className='px-5 mx-auto'
@@ -74,7 +74,7 @@ const Services = () => {
       </section>
 
       <section id='service-2' className='snap-start h-screen flex flex-col
-       items-center pt-20'>
+       items-center pt-28'>
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center mx-auto py-24'>
           <motion.div
             className='px-5 mx-auto'
@@ -127,7 +127,7 @@ const Services = () => {
       </section>
 
       <section id='service-3' className='snap-center h-screen flex flex-col 
-       items-center pt-20'>
+       items-center pt-28'>
         <div id='top-2' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center py-24'>
           <motion.div
             className='p-2 mx-auto mr-24'
@@ -180,7 +180,7 @@ const Services = () => {
       </section>
 
       <section id='service-4' className='snap-center h-screen flex flex-col 
-       items-center pt-20'>
+       items-center pt-28'>
         <div id='top-3' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center py-24'>
           <motion.div
             className='px-5 mx-auto mr-24'
