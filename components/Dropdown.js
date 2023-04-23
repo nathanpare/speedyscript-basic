@@ -41,7 +41,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Services
+                  Projects
                 </a>
               )}
             </Menu.Item>
@@ -55,7 +55,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Portfolio
+                  About Me
                 </a>
               )}
             </Menu.Item>
@@ -69,7 +69,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Contact Us
+                  Contact Me
                 </a>
               )}
             </Menu.Item>

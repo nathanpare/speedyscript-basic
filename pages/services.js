@@ -40,7 +40,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Website Design</h4>
+            <h4>Project 1</h4>
           </motion.div>
 
           <motion.div
@@ -70,7 +70,7 @@ const Services = () => {
           amongst the competition</p>
 
         <button onClick={() => router.push("/design")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Learn More</button>
+           text-black font-bold text-lg'>View Project</button>
       </section>
 
       <section id='service-2' className='snap-start h-screen flex flex-col
@@ -94,7 +94,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>App Development</h4>
+            <h4>Project 2</h4>
           </motion.div>
 
           <motion.div
@@ -123,7 +123,7 @@ const Services = () => {
           Mobile App Development services to put your million dollar idea on to the app store</p>
 
         <button onClick={() => router.push("/development")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Learn More</button>
+           text-black font-bold text-lg'>View Project</button>
       </section>
 
       <section id='service-3' className='snap-center h-screen flex flex-col 
@@ -147,7 +147,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>SEO</h4>
+            <h4>Project 3</h4>
           </motion.div>
 
           <motion.div
@@ -176,7 +176,7 @@ const Services = () => {
           SEO services to help your business rise to the top of the search results</p>
 
         <button onClick={() => router.push("/seo")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Learn More</button>
+           text-black font-bold text-lg'>View Project</button>
       </section>
 
       <section id='service-4' className='snap-center h-screen flex flex-col 
@@ -200,7 +200,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Internet Marketing</h4>
+            <h4>Project 4</h4>
           </motion.div>
 
           <motion.div
@@ -229,7 +229,7 @@ const Services = () => {
           Services so you get seen by thousands of people across the web!</p>
 
         <button onClick={() => router.push("/marketing")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Learn More</button>
+           text-black font-bold text-lg'>View Project</button>
       </section>
     </div>
   );
