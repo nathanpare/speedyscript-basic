@@ -27,8 +27,8 @@ export default function Home() {
         <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-36'>
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl lg:text-6xl'>
             <Typewriter
-              words={['Welcome to my Porfolio!', 'Take a look at my work!', 'Get to know me!']}
-              loop={3}
+              words={['Welcome to my Porfolio!', 'Take a look at my work!', 'Get to know me!', "Send me an email!"]}
+              loop={4}
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}

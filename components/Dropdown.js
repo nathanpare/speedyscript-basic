@@ -34,7 +34,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  onClick={() => router.push("/services")}
+                  onClick={() => router.push("/projects")}
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black',
@@ -48,7 +48,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  onClick={() => router.push("/portfolio")}
+                  onClick={() => router.push("/aboutme")}
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black',
