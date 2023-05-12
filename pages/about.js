@@ -32,7 +32,7 @@ const About = () => {
         }}
       >
         <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline'>About us</p>
+       decoration-[#9A0000] underline'>About us</p>
       </motion.div>
       <motion.div
         id='bottom'

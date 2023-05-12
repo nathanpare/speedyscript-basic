@@ -16,7 +16,7 @@ const Aboutme = () => {
 
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl font-semibold text-center
-       decoration-[#F7AB0A] underline pt-5 pb-10'>About Me</p>
+       decoration-[#9A0000] underline pt-5 pb-10'>About Me</p>
 
        <div className='flex flex-col items-center justify-center'>
         <Image src="/pngaaa.com-4993052.png" alt='' height={150} width={150} />

@@ -14,7 +14,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#F7AB0A] px-3 py-2 text-sm md:text-md font-semibold text-black">
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#9A0000] px-3 py-2 text-sm md:text-md font-semibold text-black">
           Options
           <ChevronDownIcon className="-mr-1 h-5 w-5 text-black" aria-hidden="true" />
         </Menu.Button>
@@ -29,7 +29,7 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-[#F7AB0A] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-[#9A0000] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (

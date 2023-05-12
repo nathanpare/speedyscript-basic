@@ -40,7 +40,7 @@ const Projects = () => {
               delay: 1
             }}
           >
-            <h4>Project 1</h4>
+            <h4>Youtube</h4>
           </motion.div>
 
           <motion.div
@@ -61,15 +61,18 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-4835519.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-112249.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
-        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>We offer expert level
-          Website Design services to make your business stand out
-          amongst the competition</p>
+        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>This is 
+        where you could put the first of your own custom projects.
+        We are using youtube as an example.</p>
 
-        <button onClick={() => router.push("/design")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={(e) => {
+      e.preventDefault();
+      window.location.href='http://youtube.com';
+      }} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>View Project</button>
       </section>
 
@@ -122,7 +125,7 @@ const Projects = () => {
         <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>We offer professional
           Mobile App Development services to put your million dollar idea on to the app store</p>
 
-        <button onClick={() => router.push("/development")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={() => router.push("/development")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>View Project</button>
       </section>
 
@@ -175,7 +178,7 @@ const Projects = () => {
         <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>We offer state of the art
           SEO services to help your business rise to the top of the search results</p>
 
-        <button onClick={() => router.push("/seo")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={() => router.push("/seo")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>View Project</button>
       </section>
 
@@ -228,7 +231,7 @@ const Projects = () => {
         <p id='bottom-4' className='text-xl sm:text-2xl text-center px-5'>We offer Internet Marketing
           Services so you get seen by thousands of people across the web!</p>
 
-        <button onClick={() => router.push("/marketing")} className='bg-[#F7AB0A] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+        <button onClick={() => router.push("/marketing")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>View Project</button>
       </section>
     </div>
