@@ -25,9 +25,11 @@ export default function Home() {
 
       <main>
         <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-36'>
-          <div className='text-3xl sm:text-4xl font-semibold md:text-5xl lg:text-6xl'>
+          <div className='text-3xl sm:text-4xl font-semibold md:text-5xl
+           lg:text-6xl'>
             <Typewriter
-              words={['Welcome to my Porfolio!', 'Take a look at my work!', 'Get to know me!', "Send me an email!"]}
+              words={['Welcome to my Porfolio!', 'Take a look at my work!',
+                'See how I can be an asset for you!', "Send me an email!"]}
               loop={4}
               typeSpeed={70}
               deleteSpeed={50}
@@ -37,7 +39,8 @@ export default function Home() {
             <Cursor cursorColor='#9A0000' />
           </div>
 
-          <div className='text-xl sm:text-2xl md:text-3xl lg:text-4xl py-8'>
+          <div className='text-xl sm:text-2xl md:text-3xl lg:text-4xl py-8
+           text-center'>
             <motion.div
               initial={{
                 x: 0,
@@ -53,7 +56,7 @@ export default function Home() {
                 delay: 3.5,
                 duration: 1
               }}>
-              <p>first line of motto here</p>
+              <p>first tagline here</p>
             </motion.div>
 
             <motion.div
@@ -71,7 +74,7 @@ export default function Home() {
                 delay: 3.5,
                 duration: 1,
               }}>
-              <p>Second line of motto here</p>
+              <p>Second tagline here</p>
             </motion.div>
           </div>
 

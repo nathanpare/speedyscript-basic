@@ -4,10 +4,8 @@ import React from 'react';
 
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 const Projects = () => {
-  const router = useRouter();
 
   return (
     <div className='text-white h-screen snap-y snap-mandatory overflow-scroll'>
@@ -19,9 +17,10 @@ const Projects = () => {
       </Head>
       <Header />
 
-      <section id='service-1' className='snap-start h-screen flex flex-col
+      <section id='project-1' className='snap-start h-screen flex flex-col
        items-center pt-28'>
-        <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center mx-auto py-24'>
+        <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row
+         items-center mx-auto py-24'>
           <motion.div
             className='px-5 mx-auto'
             id='left-1'
@@ -65,20 +64,21 @@ const Projects = () => {
           </motion.div>
         </div>
 
-        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>This is 
-        where you could put the first of your own custom projects.
-        We are using youtube as an example.</p>
+        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>This is
+          where you could put the first of your own custom projects.
+          We are using youtube as an example for demo purposes.</p>
 
         <button onClick={(e) => {
-      e.preventDefault();
-      window.location.href='http://youtube.com';
-      }} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+          e.preventDefault();
+          window.location.href = 'http://youtube.com';
+        }} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-black font-bold text-lg'>View Project</button>
       </section>
 
-      <section id='service-2' className='snap-start h-screen flex flex-col
+      <section id='project-2' className='snap-start h-screen flex flex-col
        items-center pt-28'>
-        <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center mx-auto py-24'>
+        <div id='top' className='text-2xl sm:text-3xl md:text-4xl
+         flex flex-row items-center mx-auto py-24'>
           <motion.div
             className='px-5 mx-auto'
             id='left-2'
@@ -118,20 +118,26 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-4993052.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-1689978.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
-        <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>We offer professional
-          Mobile App Development services to put your million dollar idea on to the app store</p>
+        <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>This is
+          where you could put the second of your own custom projects.
+          We are using google as an example for demo purposes.</p>
 
-        <button onClick={() => router.push("/development")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>View Project</button>
+        <button onClick={(e) => {
+          e.preventDefault();
+          window.location.href = 'http://google.com';
+        }} className='bg-[#9A0000]
+       mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-black
+       font-bold text-lg'>View Project</button>
       </section>
 
-      <section id='service-3' className='snap-center h-screen flex flex-col 
+      <section id='project-3' className='snap-center h-screen flex flex-col 
        items-center pt-28'>
-        <div id='top-2' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center py-24'>
+        <div id='top-2' className='text-2xl sm:text-3xl md:text-4xl
+         flex flex-row items-center py-24'>
           <motion.div
             className='p-2 mx-auto mr-24'
             id='left-3'
@@ -171,68 +177,20 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-2617116.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-4212740.png" alt='' height={150} width={150} />
           </motion.div>
         </div>
 
-        <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>We offer state of the art
-          SEO services to help your business rise to the top of the search results</p>
+        <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>This is
+          where you could put the second of your own custom projects.
+          We are using google as an example for demo purposes.</p>
 
-        <button onClick={() => router.push("/seo")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>View Project</button>
-      </section>
-
-      <section id='service-4' className='snap-center h-screen flex flex-col 
-       items-center pt-28'>
-        <div id='top-3' className='text-2xl sm:text-3xl md:text-4xl flex flex-row items-center py-24'>
-          <motion.div
-            className='px-5 mx-auto mr-24'
-            id='left-4'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 1
-            }}
-          >
-            <h4>Project 4</h4>
-          </motion.div>
-
-          <motion.div
-            className='p-2 px-5 mx-auto'
-            id='right-4'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 2
-            }}
-          >
-            <Image src="/pngaaa.com-6283786.png" alt='' height={150} width={150} />
-          </motion.div>
-        </div>
-
-        <p id='bottom-4' className='text-xl sm:text-2xl text-center px-5'>We offer Internet Marketing
-          Services so you get seen by thousands of people across the web!</p>
-
-        <button onClick={() => router.push("/marketing")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>View Project</button>
+        <button onClick={(e) => {
+          e.preventDefault();
+          window.location.href = 'http://netflix.com';
+        }} className='bg-[#9A0000]
+      mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-black font-bold
+      text-lg'>View Project</button>
       </section>
     </div>
   );
