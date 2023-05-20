@@ -135,7 +135,7 @@ const Projects = () => {
         <div id='top-2' className='text-2xl sm:text-3xl md:text-4xl
          flex flex-row items-center py-24'>
           <motion.div
-            className='p-2 mx-auto mr-24'
+            className='p-2 mx-auto'
             id='left-3'
             initial={{
               x: 0,
