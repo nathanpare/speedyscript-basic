@@ -60,7 +60,7 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-112249.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-112249.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
@@ -116,7 +116,7 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-1689978.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-1689978.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
@@ -173,7 +173,7 @@ const Projects = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-4212740.png" alt='' height={150} width={150} />
+            <Image src="/pngaaa.com-4212740.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
