@@ -65,9 +65,7 @@ const Projects = () => {
         </div>
 
         <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the first of your own custom projects or services.
-          We are using youtube as an example for demonstration purposes.</p>
-
+          where you could put the first of your own custom projects or services.</p>
         <button onClick={(e) => {
           e.preventDefault();
           window.location.href = 'http://youtube.com';
@@ -123,9 +121,7 @@ const Projects = () => {
         </div>
 
         <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the second of your own custom projects or services.
-          We are using google as an example for demonstration purposes.</p>
-
+          where you could put the second of your own custom projects or services.</p>
         <button onClick={(e) => {
           e.preventDefault();
           window.location.href = 'http://google.com';
@@ -182,9 +178,7 @@ const Projects = () => {
         </div>
 
         <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the second of your own custom projects or services.
-          We are using google as an example for demonstration purposes.</p>
-
+          where you could put the second of your own custom projects or services.</p>
         <button onClick={(e) => {
           e.preventDefault();
           window.location.href = 'http://netflix.com';
