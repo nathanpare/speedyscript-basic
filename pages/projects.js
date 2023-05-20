@@ -95,7 +95,7 @@ const Projects = () => {
               delay: 1
             }}
           >
-            <h4>Project 2</h4>
+            <h4>Google</h4>
           </motion.div>
 
           <motion.div
@@ -152,7 +152,7 @@ const Projects = () => {
               delay: 1
             }}
           >
-            <h4>Project 3</h4>
+            <h4>Netflix</h4>
           </motion.div>
 
           <motion.div
