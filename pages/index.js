@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleDone = () => {
-    console.log(`Done after 5 loops!`);
+    console.log(`Done after 4 loops!`);
   }
 
   return (
@@ -28,8 +28,8 @@ export default function Home() {
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl
            lg:text-6xl'>
             <Typewriter
-              words={['Welcome to my Porfolio!', 'Take a look at my work!',
-                'See how I can be an asset for you!', "Send me an email!"]}
+              words={['Welcome to our website!', 'Take your company to the next level!',
+                'See how we can be an asset for you!', "Send us an email!"]}
               loop={4}
               typeSpeed={70}
               deleteSpeed={50}
@@ -95,7 +95,7 @@ export default function Home() {
             }}>
             <button onClick={() => router.push("/contact")}
               className='bg-[#9A0000] py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Contact Me</button>
+           text-black font-bold text-lg'>Contact Us</button>
           </motion.div>
         </div>
       </main>
