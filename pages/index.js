@@ -56,7 +56,7 @@ export default function Home() {
                 delay: 3.5,
                 duration: 1
               }}>
-              <p>first tagline here</p>
+              <p>take your business to the next level</p>
             </motion.div>
 
             <motion.div
@@ -74,7 +74,7 @@ export default function Home() {
                 delay: 3.5,
                 duration: 1,
               }}>
-              <p>Second tagline here</p>
+              <p>with 1 phone call</p>
             </motion.div>
           </div>
 
