@@ -21,15 +21,15 @@ const Aboutme = () => {
       <div className='flex flex-col items-center justify-center'>
         <Image src="/pngaaa.com-4993052.png" alt='' height={150} width={150} />
         <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
-       py-5 px-12 md:px-24'>"Welcome to Boombox Digital, your premier partner
-        in digital marketing excellence! Based on beautiful Vancouver Island,
-        our mission is to help small businesses grow by offering
-        top-of-the-line online marketing services. We specialize in crafting
-        tailored marketing strategies for restaurants, real estate agents,
-        and owners of small all the way to large sized companies. At Boombox Digital,
-        we combine local expertise with innovative techniques to amplify
-        your online presence and drive measurable results. Let us help you
-        turn up the volume on your business success!"
+       py-5 px-12 md:px-24'>"At Grease Guys, we understand that your
+        time is valuable. That’s why we bring our top-tier mobile
+        oil change service directly to you. Whether you're at home,
+        at work, or anywhere in between, our team of experienced
+        technicians will take care of your vehicle’s oil change
+        on the spot. No more waiting in line at the shop or
+        adjusting your schedule—we make car maintenance as convenient
+        as it should be. Trust Grease Guys to keep your engine running
+        smoothly, so you can keep going without the hassle."
         </p>
       </div>
     </div>
