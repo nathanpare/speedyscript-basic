@@ -19,7 +19,7 @@ const Aboutme = () => {
        decoration-[#9A0000] underline pt-5 pb-10'>About Us</p>
 
       <div className='flex flex-col items-center justify-center'>
-        <Image src="/pngaaa.com-4993052.png" alt='' height={150} width={150} />
+        <Image src="/pngaaa.com-807746.png" alt='' height={200} width={200} />
         <p className='text-[rgb(251,247,245)] text-lg font-semibold text-center
        py-5 px-12 md:px-24'>"At Grease Guys, we understand that your
         time is valuable. That’s why we bring our top-tier mobile
