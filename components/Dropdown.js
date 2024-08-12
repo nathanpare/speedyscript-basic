@@ -48,14 +48,14 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  onClick={() => router.push("/aboutme")}
+                  onClick={() => router.push("/about")}
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  About Me
+                  About Us
                 </a>
               )}
             </Menu.Item>
