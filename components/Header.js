@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Dropdown from './Dropdown';
+import Image from 'next/image';
 
 const Header = () => {
   const router = useRouter();
@@ -8,9 +9,8 @@ const Header = () => {
   return (
     <div className='sticky top-0 h-24 flex justify-between
      items-center px-5'>
-      <p onClick={() => router.push("/")}
-        className='text-2xl md:text-xl lg:text-2xl cursor-pointer
-       text-[rgb(251,247,245)]'>Grease Guys</p>
+      <Image onClick={() => router.push("/")} className='cursor-pointer mt-12' src="/grease guys logo.png"
+        alt='' height={100} width={100} />
       <Dropdown />
     </div>
   );
