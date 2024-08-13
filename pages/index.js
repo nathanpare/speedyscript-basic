@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleDone = () => {
-    console.log(`Done after 3 loops!`);
+    console.log(`Done after 4 loops!`);
   }
 
   return (
@@ -28,9 +28,9 @@ export default function Home() {
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl
            lg:text-6xl'>
             <Typewriter
-              words={['Welcome, from the grease guys!', 'take a look at our services!',
+              words={['The Grease Guys', 'Welcome to our website!', 'take a look at our services!',
                "Send us an email!"]}
-              loop={3}
+              loop={4}
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}
