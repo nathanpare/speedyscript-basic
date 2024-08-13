@@ -28,7 +28,7 @@ export default function Home() {
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl
            lg:text-6xl'>
             <Typewriter
-              words={['Welcome to our website!', 'take a look at our services!',
+              words={['Welcome, from the grease guys!', 'take a look at our services!',
                "Send us an email!"]}
               loop={3}
               typeSpeed={70}

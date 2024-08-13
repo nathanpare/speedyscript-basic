@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='sticky top-0 h-24 flex justify-between
      items-center px-5'>
-      <Image onClick={() => router.push("/")} className='cursor-pointer mt-12' src="/grease guys logo.png"
+      <Image onClick={() => router.push("/")} className='cursor-pointer mt-6' src="/grease guys logo.png"
         alt='' height={100} width={100} />
       <Dropdown />
     </div>
