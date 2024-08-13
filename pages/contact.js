@@ -42,7 +42,7 @@ const Contact = () => {
       </Head>
       <Header />
       <p className='text-[rgb(251,247,245)] text-2xl md:text-3xl lg:text-4xl
-       font-semibold text-center decoration-[#9A0000] underline pt-20'>
+       font-semibold text-center decoration-[#00AFF0] underline pt-20'>
         Send us an Email!</p>
 
       <form
@@ -79,7 +79,7 @@ const Contact = () => {
           maxLength="1500"
         />
 
-        <button type='submit' value="send" className='bg-[#9A0000] py-3 px-10
+        <button type='submit' value="send" className='bg-[#00AFF0] py-3 px-10
          rounded-md text-black font-bold text-lg'>Submit</button>
 
         {statusMessage === "Success!" ?
